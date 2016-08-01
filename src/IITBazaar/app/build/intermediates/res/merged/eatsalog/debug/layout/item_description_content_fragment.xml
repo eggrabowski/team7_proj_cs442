@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This fragment describes a single item -->
+<!-- This is an item in the sell listing -->
+
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:layout_weight="1"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:orientation="vertical">
+
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/item_title"
+            android:editable="true"
+            android:hint="Entered Title"
+            android:clickable="false"
+            android:textAlignment="center"
+            android:textIsSelectable="false"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/iit_gray"/>
+
+    <!-- replace with picture -->
+        <ImageView
+            android:id="@+id/item_picture"
+            android:layout_gravity="center"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/no_picture"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/iit_gray"/>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_height="fill_parent"
+            android:id="@+id/item_price"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:color="@color/iit_gray"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:text="Price"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal|top" />
+        <TextView
+
+            android:layout_height="fill_parent"
+            android:id="@+id/item_endtime"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:color="@color/iit_gray"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:text="EndTime"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal|top" />
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/iit_gray"/>
+
+        <TextView
+
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:color="@color/iit_gray"
+            android:padding="10dp"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:id="@+id/item_description"
+            android:text="[Description]"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal|top" />
+
+
+
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/iit_gray"/>
+
+    <TextView
+
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:color="@color/iit_gray"
+        android:padding="10dp"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:id="@+id/item_category"
+        android:text="[Category]"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal|top" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/iit_gray"/>
+
+    <TextView
+
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:color="@color/iit_gray"
+        android:padding="10dp"
+        android:id="@+id/item_specifications"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:text="[Specifications]"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal|top" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/iit_gray"/>
+
+
+    <TextView
+
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:color="@color/iit_gray"
+        android:id="@+id/item_seller_name"
+        android:padding="10dp"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:text="Seller"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal|top" />
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/iit_gray"/>
+
+
+    <TextView
+
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:color="@color/iit_gray"
+        android:padding="10dp"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:text="See Sellers other Items"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal|top" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/iit_gray"/>
+
+
+
+
+        <ImageView
+            android:id="@+id/item_qrcode"
+            android:layout_gravity="center"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/no_picture"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+
+
+
+
+
+    <!--View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="?android:colorBackground"
+        android:paddingBottom="10dp"
+        android:id="@+id/view" /-->
+
+
+    <!--HorizontalScrollView
+        android:id="@+id/horizontalScroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:scrollbars="none">
+        <LinearLayout
+            android:id="@+id/horizontalScroll_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true" >
+            <LinearLayout
+                android:id="@+id/projected"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+
+                android:layout_toLeftOf="@+id/percentStarted">
+
+                <TextView
+                    android:id="@+id/widget_lineupview_player_h2h_stats_started_custom"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="QRCOD23242E"
+                    android:textSize="16dp"
+                    android:textColor="#333333" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/percentStarted"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="2dp">
+
+                <TextView
+                    android:id="@+id/widget_lineupview_player_projected_custom"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="QRC234234ODE"
+                    android:textSize="16dp"
+                    android:textColor="#333333" />
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView-->
+</LinearLayout>
+    </ScrollView>
+
+
+

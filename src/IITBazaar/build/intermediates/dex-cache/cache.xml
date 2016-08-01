@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/com.android.support-support-v4-23.1.0_94a4c09a20f7a0b4db6dd745a604e9feded17a56.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/com.google.android.gms-play-services-identity-8.1.0_3554e6671c0e633ab58c6aaf5eed54eb27498338.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/support-annotations-23.1.0_3086843f0f89e2ef285aaa16f9b6888b8121e44b.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/core-3.2.1_29d481d45ea94dacf5d4a90857e970d60c71739f.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/com.google.android.gms-play-services-appindexing-8.1.0_65aeca68568e337ee3523c9dbfb06b24198264b4.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/com.android.support-appcompat-v7-23.1.0_75780e9e351b1328f53e2d37f6db04e0e3246bb8.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/com.google.android.gms-play-services-measurement-8.1.0_f3983ad67b880658c76b09daa5844f7d3d230a7e.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/.gradle/caches/modules-2/files-2.1/com.google.zxing/android-core/3.2.1/c1de4bba95fac060cc96a3af39ef6ffd17e18157/android-core-3.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c1de4bba95fac060cc96a3af39ef6ffd17e18157">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/android-core-3.2.1_a50dabe926f0898e5b4c566d33961a299636f460.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/com.google.android.gms-play-services-base-8.1.0_dde3d45c67ba54ccf4095134396c4a5c2ac9975a.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.8.3/65fd012581ded67bc20945d85c32b4598c3a9cf1/jsoup-1.8.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="65fd012581ded67bc20945d85c32b4598c3a9cf1">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/jsoup-1.8.3_11c8f3ee28d836affc5c7be4f5e780aa405256b6.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/android-async-http-1.4.9_ef8986a9a62662420d4ddf719e64fbe8db7344f2.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/gson-2.3_9213625777a481ad5de6dc7ac9075137eae43490.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/.gradle/caches/modules-2/files-2.1/com.google.zxing/android-integration/3.2.1/87a3d7da33a6c633fb1ff30023dbf0d05e8ea74c/android-integration-3.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="87a3d7da33a6c633fb1ff30023dbf0d05e8ea74c">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/android-integration-3.2.1_2f4ea4570b18ef6c88940dc933e5f948f2eab03a.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/com.google.android.gms-play-services-basement-8.1.0_8cd791162b7d8f5f4434b898a217205576506b13.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/com.google.android.gms-play-services-analytics-8.1.0_9ea22106ac2a4df2dee5282d424da225ee13eeba.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/httpclient-4.3.6_c2898eba16b9e54a4c9f5970e178d4a2fdeaeed8.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/com.google.android.gms-play-services-ads-8.1.0_11a52ea4a539e1ee0a1bdeba78f3aecd6e22eb2d.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/com.android.support-recyclerview-v7-23.1.0_fae73cfe27a2199e7efd2c2cf0cb3845afa2273e.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/com.android.support-design-23.1.0_bed8805fbfbb1117a8064e1c2ac79ecb2782e611.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/internal_impl-23.1.0_c5ea8d82e46c694a9d99cee4208685c8c751867b.jar" />
+    </item>
+    <item
+        jar="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="/Users/Ernesto/Desktop/MCS/CS442/Project/team7_proj_cs442/src/IITBazaar/app/build/intermediates/pre-dexed/prodlike/debug/com.google.android.gms-play-services-plus-8.1.0_75f657005331af7681365f8aa40d8d3ec7c8cb91.jar" />
+    </item>
+
+</items>

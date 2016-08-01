@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Scan">
+        <menu>
+            <item
+                android:id="@+id/nav_scan_barcode"
+                android:icon="@drawable/material_barcode"
+                android:title="Scan Barcode" />
+            <!--item
+                android:id="@+id/nav_scan_nfc"
+                android:icon="@drawable/material_nfc"
+                android:title="Scan NFC" /-->
+        </menu>
+    </item>
+
+    <item android:title="Main">
+        <menu>
+            <item android:id="@+id/nav_home" android:icon="@drawable/material_home"
+                android:title="Home" />
+            <item android:id="@+id/nav_following" android:icon="@drawable/material_favorite"
+                android:title="Following" />
+            <item android:id="@+id/nav_logout" android:icon="@drawable/material_lock"
+                android:title="Logout" />
+            <item android:id="@+id/nav_disconnect" android:icon="@drawable/material_eject"
+                android:title="Disconnect" />
+        </menu>
+    </item>
+
+
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_settings_refresh"
+                android:icon="@drawable/material_refresh"
+                android:title="Refresh" />
+            <item
+                android:id="@+id/nav_settings_notifications"
+                android:icon="@drawable/material_notifications"
+                android:title="Notifications" />
+        </menu>
+    </item>
+
+
+</menu>

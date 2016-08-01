@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <fragment android:name="edu.iit.cs442.team7.iitbazaar.fragments.ItemDescriptionContentFragment"
+                android:id="@+id/item_description_content_fragment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/item_description_content_fragment"
+                />
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/iit_gray"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="?android:colorBackground"
+            android:paddingBottom="10dp"/>
+
+
+
+        <fragment android:name="edu.iit.cs442.team7.iitbazaar.fragments.ItemDescriptionButtonFragment"
+            android:id="@+id/item_description_button_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/item_description_button_fragment"
+            android:layout_gravity="bottom" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?android:colorBackground"
+        android:paddingBottom="10dp"/>
+
+
+
+
+</LinearLayout>

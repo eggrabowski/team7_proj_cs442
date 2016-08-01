@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <fragment android:name="edu.iit.cs442.team7.iitbazaar.fragments.ContactSellerNameFragment"
+            android:id="@+id/contact_seller_name_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/cont_sell_name_frag"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <fragment android:name="edu.iit.cs442.team7.iitbazaar.fragments.ContactSellerNameFragment"
+            android:id="@+id/contact_seller_img_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/cont_sell_pict_fragment"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            />
+        <fragment android:name="edu.iit.cs442.team7.iitbazaar.fragments.ContactSellerNameFragment"
+            android:id="@+id/contact_seller_contact_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/cont_sell_cont_frag"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            />
+        <fragment android:name="edu.iit.cs442.team7.iitbazaar.fragments.ContactSellerNameFragment"
+            android:id="@+id/contact_seller_feedback_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/cont_sell_feed_fragment"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            />
+        <fragment android:name="edu.iit.cs442.team7.iitbazaar.fragments.ContactSellerNameFragment"
+            android:id="@+id/contact_seller_items_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/cont_sell_items_fragment"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+</LinearLayout>

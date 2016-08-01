@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/contact_seller_fname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="10dp"
+            android:textSize="24sp"
+            android:layout_toLeftOf="@+id/white_space"
+            android:text="First Name"/>
+
+        <Space android:id="@+id/white_space"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/contact_seller_lname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:layout_toRightOf="@+id/white_space"
+            android:text="Last Name"/>
+
+        <TextView
+            android:id="@+id/contact_seller_major"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:textSize="16sp"
+            android:text="Mayor/Level"
+            android:layout_below="@+id/contact_seller_lname"
+            android:layout_alignEnd="@+id/contact_seller_lname" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/iit_black"
+        />
+</LinearLayout>

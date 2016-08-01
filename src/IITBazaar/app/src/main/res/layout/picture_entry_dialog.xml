@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+>
+
+    <TextView
+        android:id="@+id/pict_entry_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="40dp"
+        android:layout_marginBottom="10dp"
+        android:text="Source of Photo"
+        android:gravity="center_vertical"
+        android:textColor="@color/iit_red"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/iit_gray"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/picture_entry_gallery_button"
+            >
+            <TextView
+                android:id="@+id/picture_entry_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="25dp"
+                android:layout_marginBottom="10dp"
+                android:text="Gallery"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_alignParentStart="true"
+
+                android:textColor="@drawable/bg_key"
+                />
+            <ImageView
+                android:id="@+id/gallery_arrow_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:src="@drawable/right_arrow"
+                android:layout_alignParentEnd="true"
+                android:paddingRight="25dp"/>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/iit_gray"/>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/picture_entry_take_button"
+            >
+            <TextView
+                android:id="@+id/picture_entry_take"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="25dp"
+                android:layout_marginBottom="10dp"
+                android:text="Take a Picture"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_alignParentStart="true"
+
+                android:textColor="@drawable/bg_key"
+                />
+            <ImageView
+                android:id="@+id/take_pic_arrow_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:src="@drawable/right_arrow"
+                android:layout_alignParentEnd="true"
+                android:paddingRight="25dp"
+
+                />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/iit_gray"/>
+
+    </LinearLayout>
+
+</LinearLayout>

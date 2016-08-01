@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- author Janusz M Nosek - jnosek@hawk.iit.edu -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/item_entry_title"
+        android:editable="true"
+        android:hint="Entered Title"
+        android:clickable="false"
+        android:textAlignment="center"
+        android:textIsSelectable="false"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/iit_gray"/>
+
+
+    <!-- Main Image -->
+
+    <ImageView
+        android:id="@+id/item_entry_picture"
+        android:layout_gravity="center"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/no_picture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+    <!-- Image entry/removal buttons -->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+
+
+
+        <Button xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Add Photo"
+            android:id="@+id/item_entry_photo_add_button"
+            android:paddingBottom="10dp"/>
+
+        <!--Button xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="wrap_content"
+          android:text="Add Photo"
+          android:id="@+id/item_entry_photo_add_button"
+          android:paddingBottom="10dp"/-->
+
+        <!--Button xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Remove Photo"
+            android:id="@+id/item_entry_photo_remove_button"
+            android:paddingBottom="10dp"/-->
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="?android:colorBackground"
+        android:paddingBottom="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:layout_height="1dp"
+        android:background="@color/iit_gray"/>
+
+
+
+
+    <!-- Price Entry -->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true">
+        <TextView
+            android:id="@+id/item_entry_price_title"
+            android:layout_width="0dp"
+            android:layout_weight=".30"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textColor="@color/iit_black"
+            android:paddingLeft="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+        <EditText
+            android:id="@+id/item_entry_price"
+            android:hint="Price"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="left"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="25dp"
+            android:layout_width="0dp"
+            android:layout_weight=".70"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:lines="1"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:inputType="numberDecimal"
+            android:numeric="decimal|integer"
+
+             />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/iit_gray"/>
+
+
+
+
+        <!-- Time Entry -->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true">
+        <TextView
+            android:id="@+id/item_entry_end_time_title"
+            android:layout_width="0dp"
+            android:layout_weight="3.12"
+            android:layout_height="wrap_content"
+            android:text="End Time"
+            android:textColor="@color/iit_black"
+            android:paddingLeft="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+        <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_entry_end_time"
+            android:layout_weight=".29"
+            android:minWidth="250dp"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            android:clickable="true" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/iit_gray"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_entry_category"
+            android:text="Category"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:paddingTop="15dp"
+            android:paddingBottom="10dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add/Modify Category"
+            android:id="@+id/item_entry_add_modify_button"
+            android:layout_gravity="center"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="?android:colorBackground"
+        android:paddingBottom="10dp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/iit_gray"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_entry_description_title"
+        android:text="Description"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/iit_black"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_entry_description"
+            android:hint="Enter Description"
+            android:gravity="top"
+            android:textAlignment="center"
+            android:maxLength="160"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:paddingBottom="15dp"
+   />
+
+    <!--View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/iit_gray"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText6"
+            android:layout_weight="0.07"
+            android:text="Specifications"
+            android:gravity="bottom"
+            android:maxLength="160"
+            android:textAlignment="center"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:paddingTop="15dp"
+            android:paddingBottom="10dp"
+            />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+
+        <Button xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Add Specs"
+            android:id="@+id/item_add_specifiation" />
+
+        <Button xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Remove Specs"
+            android:id="@+id/item_remove_specifiation" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="?android:colorBackground"
+        android:paddingBottom="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/iit_gray"/-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="?android:colorBackground"
+        android:paddingBottom="10dp"/>
+
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="List Item"
+        android:id="@+id/item_entry_list_button" />
+
+    <!-- The toolbar is broken, this sort of fixes it -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="?android:colorBackground"/>
+
+    </LinearLayout>
+
+    </ScrollView>

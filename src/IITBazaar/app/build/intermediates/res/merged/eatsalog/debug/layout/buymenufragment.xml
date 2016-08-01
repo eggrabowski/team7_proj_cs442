@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- author Janusz M Nosek - jnosek@hawk.iit.edu -->
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@+id/buy_menu_radio_group"
+        android:checkedButton="@+id/buy_ending_button">
+
+
+
+        <RadioButton android:id="@+id/buy_ending_button"
+            android:button="@null"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+
+            android:textColor="@drawable/bg_key"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Ending"/>
+
+
+        <RadioButton android:id="@+id/buy_categories_button"
+            android:button="@null"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_weight="1"
+            android:textColor="@drawable/bg_key"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Categories"/>
+
+
+
+        <RadioButton android:id="@+id/buy_null_button"
+            android:button="@null"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_weight="0"
+            android:textColor="@drawable/bg_key"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+    </RadioGroup>
+
+    </LinearLayout>
+
+

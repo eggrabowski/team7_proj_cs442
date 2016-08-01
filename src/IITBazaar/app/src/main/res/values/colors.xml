@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="iit_red">#CF102D</color>
+    <color name="iit_red_dark">#80091b</color>
+    <color name="iit_gray">#76777B</color>
+    <color name="iit_black">#000000</color>
+    <color name="iit_orange">#E97300</color>
+
+    <color name="iit_removable_image">#E4CDBE</color>
+    <color name="iit_remove_image">#A5AEBD</color>
+    <color name="iit_remove_margin">#BFD4D4</color>
+    <color name="iit_remove_picture_bg">#E2F2E0</color>
+    <color name="iit_remove_description_bg">#D5C89B</color>
+
+</resources>

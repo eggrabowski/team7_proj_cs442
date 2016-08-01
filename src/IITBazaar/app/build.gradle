@@ -1,0 +1,201 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "edu.iit.cs442.team7.iitbazaar"
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+
+    productFlavors {
+
+
+
+        jnosek {
+            buildConfigField 'String', 'insertUserEndPointString', '"http://cs442.ddns.net:3803/~jnosek/insert_user.php"'
+            buildConfigField 'String', 'insertItemEndPointString', '"http://cs442.ddns.net:3803/~jnosek/insert_item.php"'
+            buildConfigField 'String', 'getUserEndPointString', '"http://cs442.ddns.net:3803/~jnosek/get_user.php"'
+            buildConfigField 'String', 'getItemEndPointString', '"http://cs442.ddns.net:3803/~jnosek/get_item.php"'
+            buildConfigField 'String', 'insertSellItemEndPointString', '"http://cs442.ddns.net:3803/~jnosek/insert_sell_item.php"'
+            buildConfigField 'String', 'getSellItemEndPointString', '"http://cs442.ddns.net:3803/~jnosek/get_sell_item.php"'
+            buildConfigField 'String', 'syncRemoteItemsEndPointString', '"http://cs442.ddns.net:3803/~jnosek/get_items_after_date.php"'
+            buildConfigField 'String', 'syncCurentUserWatchListEndPointString', '"http://cs442.ddns.net:3803/~jnosek/get_user_watchlist.php"'
+            buildConfigField 'String', 'addItemToCurrentUserWatchListEndPointString', '"http://cs442.ddns.net:3803/~jnosek/add_item_to_watchlist.php"'
+            buildConfigField 'String', 'removeItemFromCurrentUserWatchListEndPointString', '"http://cs442.ddns.net:3803/~jnosek/remove_product_from_watchlist.php"'
+            buildConfigField 'String', 'unlistItemEndPointString', '"http://cs442.ddns.net:3803/~jnosek/unlist_item.php"'
+            buildConfigField 'String', 'diffRemoteItemsEndPointString', '"http://cs442.ddns.net:3803/~jnosek/get_item_numbers_after_date.php"'
+            buildConfigField 'String', 'categoryEndpointString', '"http://cs442.ddns.net:3803/~jnosek/get_categories.php"'
+
+
+            buildConfigField 'String', 'returnPage','"http://cs442.ddns.net:3803/~jnosek/paypal_return.php"';
+            buildConfigField 'String', 'cancelReturnPage','"http://cs442.ddns.net:3803/~jnosek/paypal_cancelreturn.php"';
+            buildConfigField 'String', 'imageURL','"http://cs442.ddns.net:3803/~jnosek/image_url.png"';
+            buildConfigField 'boolean', 'isProduction', "false";
+            buildConfigField 'boolean', 'isSSL', "false";
+            buildConfigField 'String', 'paypalscr','"https://www.sandbox.paypal.com/cgi-bin/webscr?"';
+
+
+
+        }
+
+
+        egarci10 {
+            buildConfigField 'String', 'insertUserEndPointString', '"http://cs442.ddns.net:3803/~egarci10/insert_user.php"'
+            buildConfigField 'String', 'insertItemEndPointString', '"http://cs442.ddns.net:3803/~egarci10/insert_item.php"'
+            buildConfigField 'String', 'getUserEndPointString', '"http://cs442.ddns.net:3803/~egarci10/get_user.php"'
+            buildConfigField 'String', 'getItemEndPointString', '"http://cs442.ddns.net:3803/~egarci10/get_item.php"'
+            buildConfigField 'String', 'insertSellItemEndPointString', '"http://cs442.ddns.net:3803/~egarci10/insert_sell_item.php"'
+            buildConfigField 'String', 'getSellItemEndPointString', '"http://cs442.ddns.net:3803/~egarci10/get_sell_item.php"'
+            buildConfigField 'String', 'syncRemoteItemsEndPointString', '"http://cs442.ddns.net:3803/~egarci10/get_items_after_date.php"'
+            buildConfigField 'String', 'syncCurentUserWatchListEndPointString', '"http://cs442.ddns.net:3803/~egarci10/get_user_watchlist.php"'
+            buildConfigField 'String', 'addItemToCurrentUserWatchListEndPointString', '"http://cs442.ddns.net:3803/~egarci10/add_item_to_watchlist.php"'
+            buildConfigField 'String', 'removeItemFromCurrentUserWatchListEndPointString', '"http://cs442.ddns.net:3803/~egarci10/remove_product_from_watchlist.php"'
+            buildConfigField 'String', 'unlistItemEndPointString', '"http://cs442.ddns.net:3803/~egarci10/unlist_item.php"'
+            buildConfigField 'String', 'diffRemoteItemsEndPointString', '"http://cs442.ddns.net:3803/~egarci10/get_item_numbers_after_date.php"'
+            buildConfigField 'String', 'categoryEndpointString', '"http://cs442.ddns.net:3803/~egarci10/get_categories.php"'
+
+            buildConfigField 'String', 'returnPage','"http://cs442.ddns.net:3803/~egarci10/paypal_return.php"';
+            buildConfigField 'String', 'cancelReturnPage','"http://cs442.ddns.net:3803/~egarci10/paypal_cancelreturn.php"';
+            buildConfigField 'String', 'imageURL','"http://cs442.ddns.net:3803/~egarci10/image_url.png"';
+            buildConfigField 'boolean', 'isProduction', "false";
+            buildConfigField 'boolean', 'isSSL', "false";
+            buildConfigField 'String', 'paypalscr','"https://www.sandbox.paypal.com/cgi-bin/webscr?"';
+
+        }
+
+
+        sshenoy6 {
+            buildConfigField 'String', 'insertUserEndPointString', '"http://cs442.ddns.net:3803/~sshenoy6/insert_user.php"'
+            buildConfigField 'String', 'insertItemEndPointString', '"http://cs442.ddns.net:3803/~sshenoy6/insert_item.php"'
+            buildConfigField 'String', 'getUserEndPointString', '"http://cs442.ddns.net:3803/~sshenoy6/get_user.php"'
+            buildConfigField 'String', 'getItemEndPointString', '"http://cs442.ddns.net:3803/~sshenoy6/get_item.php"'
+            buildConfigField 'String', 'insertSellItemEndPointString', '"http://cs442.ddns.net:3803/~sshenoy6/insert_sell_item.php"'
+            buildConfigField 'String', 'getSellItemEndPointString', '"http://cs442.ddns.net:3803/~sshenoy6/get_sell_item.php"'
+            buildConfigField 'String', 'syncRemoteItemsEndPointString', '"http://cs442.ddns.net:3803/~sshenoy6/get_items_after_date.php"'
+            buildConfigField 'String', 'syncCurentUserWatchListEndPointString', '"http://cs442.ddns.net:3803/~sshenoy6/get_user_watchlist.php"'
+            buildConfigField 'String', 'addItemToCurrentUserWatchListEndPointString', '"http://cs442.ddns.net:3803/~sshenoy6/add_item_to_watchlist.php"'
+            buildConfigField 'String', 'removeItemFromCurrentUserWatchListEndPointString', '"http://cs442.ddns.net:3803/~sshenoy6/remove_product_from_watchlist.php"'
+            buildConfigField 'String', 'unlistItemEndPointString', '"http://cs442.ddns.net:3803/~sshenoy6/unlist_item.php"'
+            buildConfigField 'String', 'diffRemoteItemsEndPointString', '"http://cs442.ddns.net:3803/~sshenoy6/get_item_numbers_after_date.php"'
+            buildConfigField 'String', 'categoryEndpointString', '"http://cs442.ddns.net:3803/~sshenoy6/get_categories.php"'
+
+            buildConfigField 'String', 'returnPage','"http://cs442.ddns.net:3803/~sshenoy6/paypal_return.php"';
+            buildConfigField 'String', 'cancelReturnPage','"http://cs442.ddns.net:3803/~sshenoy6/paypal_cancelreturn.php"';
+            buildConfigField 'String', 'imageURL','"http://cs442.ddns.net:3803/~sshenoy6/image_url.png"';
+            buildConfigField 'boolean', 'isProduction', "false";
+            buildConfigField 'boolean', 'isSSL', "false";
+            buildConfigField 'String', 'paypalscr','"https://www.sandbox.paypal.com/cgi-bin/webscr?"';
+
+        }
+
+
+
+        prodlike {
+            buildConfigField 'String', 'insertUserEndPointString', '"http://cs442.ddns.net:3803/~prodlike/insert_user.php"'
+            buildConfigField 'String', 'insertItemEndPointString', '"http://cs442.ddns.net:3803/~prodlike/insert_item.php"'
+            buildConfigField 'String', 'getUserEndPointString', '"http://cs442.ddns.net:3803/~prodlike/get_user.php"'
+            buildConfigField 'String', 'getItemEndPointString', '"http://cs442.ddns.net:3803/~prodlike/get_item.php"'
+            buildConfigField 'String', 'insertSellItemEndPointString', '"http://cs442.ddns.net:3803/~prodlike/insert_sell_item.php"'
+            buildConfigField 'String', 'getSellItemEndPointString', '"http://cs442.ddns.net:3803/~prodlike/get_sell_item.php"'
+            buildConfigField 'String', 'syncRemoteItemsEndPointString', '"http://cs442.ddns.net:3803/~prodlike/get_items_after_date.php"'
+            buildConfigField 'String', 'syncCurentUserWatchListEndPointString', '"http://cs442.ddns.net:3803/~prodlike/get_user_watchlist.php"'
+            buildConfigField 'String', 'addItemToCurrentUserWatchListEndPointString', '"http://cs442.ddns.net:3803/~prodlike/add_item_to_watchlist.php"'
+            buildConfigField 'String', 'removeItemFromCurrentUserWatchListEndPointString', '"http://cs442.ddns.net:3803/~prodlike/remove_product_from_watchlist.php"'
+            buildConfigField 'String', 'unlistItemEndPointString', '"http://cs442.ddns.net:3803/~prodlike/unlist_item.php"'
+            buildConfigField 'String', 'diffRemoteItemsEndPointString', '"http://cs442.ddns.net:3803/~prodlike/get_item_numbers_after_date.php"'
+            buildConfigField 'String', 'categoryEndpointString', '"http://cs442.ddns.net:3803/~prodlike/get_categories.php"'
+
+            buildConfigField 'String', 'returnPage','"http://cs442.ddns.net:3803/~prodlike/paypal_return.php"';
+            buildConfigField 'String', 'cancelReturnPage','"http://cs442.ddns.net:3803/~prodlike/paypal_cancelreturn.php"';
+            buildConfigField 'String', 'imageURL','"http://cs442.ddns.net:3803/~prodlike/image_url.png"';
+            buildConfigField 'boolean', 'isProduction', "true";
+            buildConfigField 'boolean', 'isSSL', "false";
+            buildConfigField 'String', 'paypalscr','"https://www.sandbox.paypal.com/cgi-bin/webscr?"';
+
+        }
+
+        //Guys, these are on different server (mypages, instead of cs442)
+
+        prod_unsecure {
+            buildConfigField 'String', 'insertUserEndPointString', '"http://mypages.iit.edu/~jnosek/bazaar/insert_user.php"'
+            buildConfigField 'String', 'insertItemEndPointString', '"http://mypages.iit.edu/~jnosek/bazaar/insert_item.php"'
+            buildConfigField 'String', 'getUserEndPointString', '"http://mypages.iit.edu/~jnosek/bazaar/get_user.php"'
+            buildConfigField 'String', 'getItemEndPointString', '"http://mypages.iit.edu/~jnosek/get_item.php"'
+            buildConfigField 'String', 'insertSellItemEndPointString', '"http://mypages.iit.edu/~jnosek/bazaar/insert_sell_item.php"'
+            buildConfigField 'String', 'getSellItemEndPointString', '"http://mypages.iit.edu/~jnosek/bazaar/get_sell_item.php"'
+            buildConfigField 'String', 'syncRemoteItemsEndPointString', '"http://mypages.iit.edu/~jnosek/bazaar/get_items_after_date.php"'
+            buildConfigField 'String', 'syncCurentUserWatchListEndPointString', '"http://mypages.iit.edu/~jnosek/bazaar/get_user_watchlist.php"'
+            buildConfigField 'String', 'addItemToCurrentUserWatchListEndPointString', '"http://cs442.ddns.net:3803/~jnosek/add_item_to_watchlist.php"'
+            buildConfigField 'String', 'removeItemFromCurrentUserWatchListEndPointString', '"http://mypages.iit.edu/~jnosek/bazaar/remove_product_from_watchlist.php"'
+            buildConfigField 'String', 'unlistItemEndPointString', '"http://mypages.iit.edu/~jnosek/bazaar/unlist_item.php"'
+            buildConfigField 'String', 'diffRemoteItemsEndPointString', '"http://mypages.iit.edu/~jnosek/bazaar/get_item_numbers_after_date.php"'
+            buildConfigField 'String', 'categoryEndpointString', '"http://mypages.iit.edu/~jnosek/bazaar/get_categories.php"'
+
+            buildConfigField 'String', 'returnPage','"http://mypages.iit.edu/~jnosek/bazaar/paypal_return.php"';
+            buildConfigField 'String', 'cancelReturnPage','"http://mypages.iit.edu/~jnosek/bazaar/paypal_cancelreturn.php"';
+            buildConfigField 'String', 'imageURL','"http://mypages.iit.edu/~jnosek/bazaar/image_url.png"';
+            buildConfigField 'boolean', 'isProduction', "true";
+            buildConfigField 'boolean', 'isSSL', "false";
+            buildConfigField 'String', 'paypalscr','"https://www.paypal.com/cgi-bin/webscr?"';
+        }
+
+        //Guys, these are the same prod_unsecured but with HTTPS
+
+        prod {
+            buildConfigField 'String', 'insertUserEndPointString', '"https://mypages.iit.edu/~jnosek/bazaar/insert_user.php"'
+            buildConfigField 'String', 'insertItemEndPointString', '"https://mypages.iit.edu/~jnosek/bazaar/insert_item.php"'
+            buildConfigField 'String', 'getUserEndPointString', '"https://mypages.iit.edu/~jnosek/bazaar/get_user.php"'
+            buildConfigField 'String', 'getItemEndPointString', '"https://mypages.iit.edu/~jnosek/get_item.php"'
+            buildConfigField 'String', 'insertSellItemEndPointString', '"https://mypages.iit.edu/~jnosek/bazaar/insert_sell_item.php"'
+            buildConfigField 'String', 'getSellItemEndPointString', '"https://mypages.iit.edu/~jnosek/bazaar/get_sell_item.php"'
+            buildConfigField 'String', 'syncRemoteItemsEndPointString', '"https://mypages.iit.edu/~jnosek/bazaar/get_items_after_date.php"'
+            buildConfigField 'String', 'syncCurentUserWatchListEndPointString', '"https://mypages.iit.edu/~jnosek/bazaar/get_user_watchlist.php"'
+            buildConfigField 'String', 'addItemToCurrentUserWatchListEndPointString', '"http://cs442.ddns.net:3803/~jnosek/add_item_to_watchlist.php"'
+            buildConfigField 'String', 'removeItemFromCurrentUserWatchListEndPointString', '"https://mypages.iit.edu/~jnosek/bazaar/remove_product_from_watchlist.php"'
+            buildConfigField 'String', 'unlistItemEndPointString', '"https://mypages.iit.edu/~jnosek/bazaar/unlist_item.php"'
+            buildConfigField 'String', 'diffRemoteItemsEndPointString', '"https://mypages.iit.edu/~jnosek/bazaar/get_item_numbers_after_date.php"'
+            buildConfigField 'String', 'categoryEndpointString', '"https://mypages.iit.edu/~jnosek/bazaar/get_categories.php"'
+
+            buildConfigField 'String', 'returnPage','"https://mypages.iit.edu/~jnosek/bazaar/paypal_return.php"';
+            buildConfigField 'String', 'cancelReturnPage','"https://mypages.iit.edu/~jnosek/bazaar/paypal_cancelreturn.php"';
+            buildConfigField 'String', 'imageURL','"https://mypages.iit.edu/~jnosek/bazaar/image_url.png"';
+            buildConfigField 'boolean', 'isProduction', "true";
+            buildConfigField 'boolean', 'isSSL', "false";
+            buildConfigField 'String', 'paypalscr','"https://www.paypal.com/cgi-bin/webscr?"';
+        }
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile 'com.android.support:support-v4:23.1.0'
+    compile 'com.android.support:design:23.1.0'
+    compile 'com.android.support:recyclerview-v7:23.1.0'
+    compile 'com.google.android.gms:play-services-identity:8.1.0'
+    compile 'com.google.android.gms:play-services-plus:8.1.0'
+    compile 'org.jsoup:jsoup:1.8.3'
+    compile 'com.google.code.gson:gson:2.3'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'com.google.zxing:core:3.2.1'
+    compile 'com.google.zxing:android-core:3.2.1'
+    compile 'com.google.zxing:android-integration:3.2.1'
+}
+
+

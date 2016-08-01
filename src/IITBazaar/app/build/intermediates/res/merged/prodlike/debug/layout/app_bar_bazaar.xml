@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- author Janusz M Nosek - jnosek@hawk.iit.edu -->
+<!-- This is the main application view -->
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".BazaarActivity">
+
+
+    <!-- The toolbar is replaced here -->
+    <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/iit_red"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:layout_collapseMode="pin"
+            app:theme="@string/app_name">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/toolbar_frame">
+
+                <SearchView
+                    android:id="@+id/action_search"
+                    android:queryHint="@string/search_query_hint"
+                    android:icon="@drawable/spyglass_icon"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:iconifiedByDefault="true"
+                    android:layout_marginRight="?attr/actionBarSize"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:layout_gravity="left"
+                    android:gravity="center_vertical"
+                    android:title="Search"
+                    android:showAsAction="always"
+
+                    android:singleLine="true"
+                    android:background="@android:color/transparent"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="#b3ffffff"
+                    android:textCursorDrawable="@android:color/white"
+                    style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" />
+
+                <!-- android:title="@string/app_name"
+                  android:hint="@string/app_name"
+                  -->
+
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="?attr/actionBarSize"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:hint="@string/app_name"
+                    android:singleLine="true"
+                    android:background="@android:color/transparent"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="#b3ffffff"
+                    android:textCursorDrawable="@android:color/white"
+                    android:onClick="onClick"
+                    android:clickable="true"
+                    style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"/>
+
+
+
+                <!--ImageButton
+                    android:id="@+id/btn_clear"
+                    android:layout_width="?attr/actionBarSize"
+                    android:layout_height="?attr/actionBarSize"
+                    android:scaleX=".7"
+                    android:scaleY=".7"
+                    android:layout_toLeftOf="@+id/btn_refresh"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/clear_icon"
+                    style="@style/Widget.AppCompat.ActionButton"/-->
+
+
+                <ImageButton
+                    android:id="@+id/btn_refresh"
+
+                    android:layout_width="?attr/actionBarSize"
+                    android:layout_height="?attr/actionBarSize"
+                    android:scaleX=".5"
+                    android:scaleY=".5"
+
+                android:layout_gravity="right"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/refresh_icon"
+                    style="@style/Widget.AppCompat.ActionButton"/>
+
+
+
+
+
+            </FrameLayout>
+        </android.support.v7.widget.Toolbar>
+
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!-- This is everything that is not the toolbar -->
+
+    <!-- Put a placeholder here, should be replaced dynamically with buy/sell page -->
+    <include layout="@layout/content_bazaar" />
+
+</android.support.design.widget.CoordinatorLayout>

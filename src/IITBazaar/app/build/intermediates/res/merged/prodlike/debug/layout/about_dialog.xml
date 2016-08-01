@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    >
+
+    <TextView
+        android:id="@+id/about_dialog_title_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="40dp"
+        android:layout_marginBottom="10dp"
+        android:text="About"
+        android:gravity="center_vertical"
+        android:textColor="@color/iit_red"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/iit_gray"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/about_dialog_gallery"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingTop="15dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="25dp"
+                android:layout_marginBottom="10dp"
+                android:text="Created by\nJanusz M Nosek jnosek@hawk.iit.edu\nSwathi Shenoy sshenoy6@hawk.iit.edu\nErnesto Garcia egarci10@hawk.iit.edu\n2015"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_alignParentStart="true"
+
+                android:textColor="@drawable/bg_key"
+                />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
